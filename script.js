@@ -196,4 +196,9 @@
     // copy button
     copyButtonFunc('rail-copy-btn', 'service-num-rail')
 
+// clear history button
 
+    document.getElementById('clear-history-btn')
+    .addEventListener('click', function(){
+        document.getElementById('call-history').innerText=''
+    })
