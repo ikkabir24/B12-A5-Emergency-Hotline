@@ -13,6 +13,7 @@ for (let icon of heartIcons) {
     });
 }
 
+
 // shared function 
 
 function callHistoryAdd(nameId, numberId) {
@@ -56,7 +57,8 @@ function callHistoryAdd(nameId, numberId) {
     }
 }
 
-// national emergency call button
+
+//1 national emergency call button
 
 document.getElementById('national-emergency-call-btn')
     .addEventListener('click', function () {
@@ -65,7 +67,8 @@ document.getElementById('national-emergency-call-btn')
 
     })
 
-// police call button
+
+//2 police call button
 
 document.getElementById('police-call-btn')
     .addEventListener('click', function () {
@@ -74,6 +77,75 @@ document.getElementById('police-call-btn')
 
     })
 
+
+//3 fire service call button
+
+document.getElementById('fire-service-call-btn')
+    .addEventListener('click', function () {
+
+        callHistoryAdd('service-name-fire', 'service-num-fire')
+
+    })
+
+
+//4 ambulance service call button
+
+document.getElementById('ambulance-call-btn')
+    .addEventListener('click', function () {
+
+        callHistoryAdd('service-name-ambulance', 'service-num-ambulance')
+
+    })
+
+    
+//5 Women and child service call button
+
+document.getElementById('wNc-call-btn')
+    .addEventListener('click', function () {
+
+        callHistoryAdd('service-name-women', 'service-num-women')
+
+    })
+
+
+//6 anti corruption service call button
+
+document.getElementById('anti-co-call-btn')
+    .addEventListener('click', function () {
+
+        callHistoryAdd('service-name-anti', 'service-num-anti')
+
+    })
+
+
+//7 electricity service call button
+
+document.getElementById('electricity-call-btn')
+    .addEventListener('click', function () {
+
+        callHistoryAdd('service-name-electricity', 'service-num-electricity')
+
+    })
+
+
+//8 brac service call button
+
+document.getElementById('brac-call-btn')
+    .addEventListener('click', function () {
+
+        callHistoryAdd('service-name-brac', 'service-num-brac')
+
+    })
+
+
+//9 rail service call button
+
+document.getElementById('rail-call-btn')
+    .addEventListener('click', function () {
+
+        callHistoryAdd('service-name-rail', 'service-num-rail')
+
+    })
 
 
 
